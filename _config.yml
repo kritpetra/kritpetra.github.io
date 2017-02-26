@@ -3,9 +3,9 @@ description: "Description"
 about: "About"
 location: "Location"
 email: krit.petra@gmail.com
-baseurl: "/"
+baseurl: "/kritpetra.github.io"
 
-#url: "https://kritpetra.github.io" # replace by your site's url
+url: "https://kritpetra.github.io"
 twitter_username: 
 github_username:  kritpetra
 author: "Krit Petrachaianan"
