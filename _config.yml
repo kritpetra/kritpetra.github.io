@@ -1,11 +1,11 @@
 title: "Krit Petrachaianan"
-description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-about: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-location: "Your Region, Country"
+description: "Description"
+about: "About"
+location: "Location"
 email: krit.petra@gmail.com
-baseurl: "/material-theme"
+baseurl: "/kritpetra.github.io"
 
-url: "http://himsel.me" # replace by your site's url
+url: "https://kritpetra.github.io" # replace by your site's url
 twitter_username: 
 github_username:  kritpetra
 author: "Krit Petrachaianan"
