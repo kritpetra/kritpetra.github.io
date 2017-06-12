@@ -3,7 +3,7 @@ body {
     color: #757575;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-bottom: 60px;
 }
 
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-transform: uppercase;
     color: #000;
     margin-top: 0;
@@ -128,14 +128,18 @@ footer a {
 
 .skill-listing {
   margin: 10px 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
 }
 .icon {
   font-size: 25px;
   margin: 5px;
+  flex:2;
 }
 
 .icon-description {
-  margin: auto;
+  flex: 5;
 }
 
 /* CUSTOM ICONS */

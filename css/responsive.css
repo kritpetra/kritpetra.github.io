@@ -1,57 +1,105 @@
-@media only screen and (max-width: 980px) {
-    .dl-share {
-        display: none;
-    }
-    
-    .year {
-        text-align: left;
-    }
+/* Large + Extra large */
+@media only screen and (min-width: 992px) {
+  .separator-hr {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 800px) {
-    body {
-        padding-bottom: 10px;
-    }
-    .container {
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
+/* Large */
+@media only screen and (max-width: 1200) {
+
 }
 
-@media only screen and (max-width: 640px) {
-    .container {
-        padding: 20px;
-    }
-    h1 {
-        margin-top: 20px;
-    }
-    .propic {
-        border-radius: 0;
-    }
-    .list-unstyled li {
-        border-bottom: 1px solid #efefef;
-        padding: 15px 0;
-    }
-    .firsthr {
-        visibility: hidden;
-    }
-    .secicon.fa {
-        margin: 10px 0;
-    }
-    .year,
-    .mobmid {
-        text-align: center;
-    }
+/* Medium */
+@media only screen and (max-width: 992px) {
+  .dl-share {
+    display: none;
+  }
+
+  .hidden-md {
+    visibility: visible;
+  }
+
+  .cv-title {
+    text-align: center;
+  }
+
+  .year {
+    text-align: left;
+  }
+
+  .icon {
+    font-size: 25px;
+    margin: 5px;
+    flex:1;
+  }
+  .icon-description {
+    flex: 7;
+  }
+}
+/* Small */
+@media only screen and (max-width: 768px) {
+  body {
+    padding-bottom: 10px;
+  }
+  .container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .propic {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+  .social-links {
+    text-align:center;
+  }
+  .separator-hr {
+    visibility: visible;
+  }
+  .year,
+  .mobmid {
+    text-align: center;
+  }
+  .skill-listing {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    flex: 2;
+    text-align: right;
+    margin-right: 30px;
+  }
+  .icon-description {
+    flex: 5;
+  }
+
+
 }
 
-@media only screen and (width: 480px) {
-    footer{
-        padding: 0 100px;
-    }
-}
+/* Extra small */
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  /*.list-unstyled li {
+    border-bottom: 1px solid #efefef;
+    padding: 15px 0;
+  }*/
+  .firsthr {
+    visibility: hidden;
+  }
+  .secicon.fa {
+    margin: 10px 0;
+  }
 
-@media only screen and (max-width: 360px) {
-    footer{
-        padding: 0 15px;
-    }
+
 }
